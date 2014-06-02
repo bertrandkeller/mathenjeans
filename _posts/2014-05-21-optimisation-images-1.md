@@ -3,7 +3,7 @@ title: Optimisation des images
 layout: post
 ---
 
-Nous avons installé compressé les images du répertoires d'images de Drupal. Nous allons voir ce que ça change pour la page d'accueil
+Nous avons installé et compressé les images du répertoires d'images de Drupal. Nous allons voir ce que ça change pour la page d'accueil.
 
 
 ###Statistiques moyennes###

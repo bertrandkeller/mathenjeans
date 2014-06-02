@@ -70,6 +70,6 @@ Temps de chargement :
 
 ###Appréciation###
 
-Nous avons largement fait baissé le temps de chargement de la page d'accueil. (Le score Pingdom est bizarrement plus bas ans en comprendre la raison, nous passerons outre car nous essayerons de la faire remonter par la suite.)
+Nous avons largement fait baissé le temps de chargement de la page d'accueil. (Le score Pingdom est bizarrement plus bas. Les cirtères entre les 2 mesures ne semblent pas les mêmes, je ne sais pas expliquer cette différence.)
 
-Note : résultat à priori satisfaisant sur la liste de pages mais non significatif car ne prenant pas en compte les problèmes de cache pour certain utilisateurs.
+Note : résultat à priori satisfaisant sur la liste de pages mais non significatifs car ne prenant pas en compte les problèmes de cache pour certain utilisateurs.
