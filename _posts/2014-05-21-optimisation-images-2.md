@@ -3,8 +3,8 @@ title: Optimisation des images d'illustration
 layout: post
 ---
 
-Certaines pages affiche des temps de chargement très important (/mej_quoi), il est possible que ce soit du aux image de la colonne de gauche.
-Nous allons appelé des images plus adaptée.
+Certaines pages affichent des temps de chargement très important (/mej_quoi), il est possible que ce soit dû aux images de la colonne de gauche.
+Nous allons appeler des images plus adaptées.
 
 
 ###Statistiques moyennes###
