@@ -1,24 +1,25 @@
 ---
-title: Blog
+title: Actions
 layout: default
 ---
 
 <header class="clearfix">
 <br />
 
-<h1 class="spinto-editable" id="headline">Les nouvelles {{ site.title }}</h1>
+<h1 class="spinto-editable" id="headline">Les nouvelles de {{ site.title }}</h1>
  <hr />
 </header>
 
 <div class="clearfix">
 
-<div class="span7">
+<div class="span10">
 {% for post in site.posts %}
-  <h3>{{ post.title }}</h3>
-  <p><small>Posted {{ post.date | date_to_long_string }} - <a href="{{ post.url }}">Link to "{{ post.title }}"</a></small></p>
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>À la date du {{ post.date | date_to_long_string }}</p>
   <div>{{ post.content }}</div>
-  <br />
+  <hr />
 {% endfor %}
 </div>
 
 </div>
+

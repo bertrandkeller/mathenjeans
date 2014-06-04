@@ -22,6 +22,24 @@ Temps de chargement :
 - 4,59s (GT metric) 
 - 4,01s (local)  
 
+* Temps moyen de chargement du site par périphérique
+  * Sur PC    : 3.5s
+  * Sur tablet  : 3.7s
+  * Sur mobile  : 7.7s
+
+* Temps moyen de chargement du site par type
+  * Network   : 1.3s
+  * Backend   : 1.1s
+  * Frontend  : 2.5s
+
+{:.table .table-striped}
+| Pages             | Chargement    | 
+| ----------------- |:-------------:|
+| ateliers          | 4.1s          |
+| mej_quoi          | 6.4s          |
+| Sujets            | 11s           |
+| association       | 16s           |
+| Congres2014       | 11s           |
 
 ###Action###
 
@@ -40,7 +58,26 @@ Note :
 Temps de chargement : 
 - 2,18s (Pingdom) 
 - 3,82s (GT metric) 
-- 2,67s (local) 
+- 2,67s (local)
+
+* Temps moyen de chargement du site par périphérique
+  * Sur PC      : 2.7s
+  * Sur tablet  : 4.8s
+  * Sur mobile  : 2.2s
+
+* Temps moyen de chargement du site par type
+  * Network   : 1.2s
+  * Backend   : 1.2s
+  * Frontend  : 1.7s
+
+{:.table .table-striped}
+| Pages             | Chargement    | 
+| ----------------- |:-------------:|
+| ateliers          | 3.9s          |
+| mej_quoi          | 0.94s         |
+| Sujets            | 2.1s          |
+| association       | 1.7s          |
+| Congres2014       | 2.5s          |
 
 ###Appréciation###
 

@@ -31,6 +31,7 @@ Temps de chargement :
 
 ###Liste des pages présentant le plus grand temps de chargement###
 
+{:.table .table-striped}
 | Pages	        	  | Chargement    | 
 | ----------------- |:-------------:|
 | ateliers      	  | 4.1s 			    |
@@ -59,6 +60,7 @@ Temps de chargement :
 - 6,00s (GT metric) 
 - 4,30s (local) 
 
+{:.table .table-striped}
 | Pages             | Chargement    | 
 | ----------------- |:-------------:|
 | ateliers          | 0.59s         |
