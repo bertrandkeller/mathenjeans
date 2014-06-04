@@ -32,6 +32,7 @@ Temps de chargement :
   * Backend   : 1.1s
   * Frontend  : 2.5s
 
+
 {:.table .table-striped}
 | Pages             | Chargement    | 
 | ----------------- |:-------------:|
@@ -69,6 +70,7 @@ Temps de chargement :
   * Network   : 1.2s
   * Backend   : 1.2s
   * Frontend  : 1.7s
+
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
