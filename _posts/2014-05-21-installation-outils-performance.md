@@ -29,7 +29,7 @@ Temps de chargement :
   * Backend 	: 1.1s
   * Frontend 	: 2.5s
 
-###Liste des pages présentant le plus grand temps de chargement###
+####Liste des pages présentant le plus grand temps de chargement####
 
 {:.table .table-striped}
 | Pages	        	  | Chargement    | 
@@ -59,6 +59,8 @@ Temps de chargement :
 - 3,93s (Pingdom) 
 - 6,00s (GT metric) 
 - 4,30s (local) 
+
+####Liste des pages présentant le plus grand temps de chargement####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 

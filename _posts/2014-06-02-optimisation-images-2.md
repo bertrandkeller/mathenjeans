@@ -32,6 +32,7 @@ Temps de chargement :
   * Backend   : 1.1s
   * Frontend  : 2.5s
 
+####Liste des pages présentant le plus grand temps de chargement####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
@@ -57,7 +58,7 @@ Note :
 - B (Yslow)
 
 Temps de chargement : 
-- 2,18s (Pingdom) 
+- 2,60s (Pingdom) 
 - 3,82s (GT metric) 
 - 2,67s (local)
 
@@ -71,6 +72,7 @@ Temps de chargement :
   * Backend   : 1.2s
   * Frontend  : 1.7s
 
+####Liste des pages présentant le plus grand temps de chargement####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
