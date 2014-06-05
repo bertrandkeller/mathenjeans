@@ -1,5 +1,5 @@
 ---
-title: Optimisation des images d'illustration
+title: Optimisation du thème
 layout: post
 ---
 
