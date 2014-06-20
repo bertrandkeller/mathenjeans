@@ -14,12 +14,19 @@ module.exports = function(grunt) {
       },
       pages: {
         files: [
-          {
-            src: 'http://www.mathenjeans.fr/',
-         }
+        {
+          src: 'http://www.mathenjeans.fr/',
+        }
         ]
       }
     },
+
+    pagespeed: {
+     options: {
+       nokey: true,
+       url: "http://www.mathenjeans.fr/",
+     }
+   },
 
     imageoptim: {
       myTask: {
@@ -48,54 +55,61 @@ module.exports = function(grunt) {
 
     browserSync: {
       files: {
-          src : ['_site/stylesheets/*.css']
+        src : ['_site/stylesheets/*.css']
       },
       options: {
-          watchTask: true,
-          ghostMode: {
-              clicks: true,
-              scroll: true,
-              links: true,
-              forms: true
-          },
-          server: {
-              baseDir: '_site'
-          }
+        watchTask: true,
+        ghostMode: {
+          clicks: true,
+          scroll: true,
+          links: true,
+          forms: true
+        },
+        server: {
+          baseDir: '_site'
+        }
       },
     },
 
     shell: {
       jekyllBuild: {
-            command: 'jekyll build'
-        }
+        command: 'jekyll build'
+      }
     },
 
     connect: {
-        server: {
-            options: {
-                port: 4000,
-                base: '_site'
-            }
-        }
-    },
-
-    watch: {
-      livereload: {
-        files: [
-            '_config.yml',
-            'index.html',
-            '_layouts/**',
-            '_posts/**',
-            '_includes/**',
-            'stylesheets/*.css',
-        ],
-        tasks: ['shell:jekyllBuild'],
+      server: {
         options: {
-          livereload: true
-        },
+          port: 4000,
+          base: '_site'
+        }
+      }
+    },
+    pagespeed: {
+     options: {
+       nokey: true,
+       url: "http://www.mathenjeans.fr/",
+       strategy: "mobile"
+     }
+   },
+
+   watch: {
+    livereload: {
+      files: [
+      '_config.yml',
+      'index.html',
+      '_layouts/**',
+      '_posts/**',
+      '_includes/**',
+      'stylesheets/*.css',
+      ],
+      tasks: ['shell:jekyllBuild'],
+      options: {
+        livereload: true
       },
-    }
-  });
+    },
+  }
+});
 
   // Load the plugin that provides the tasks.
   grunt.loadNpmTasks('grunt-yslow');
@@ -109,9 +123,10 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-browser-sync');
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-shell');
+  grunt.loadNpmTasks('grunt-pagespeed');
 
   // Default task(s).
-  grunt.registerTask('perf', ['phantomas','yslow']);
+  grunt.registerTask('perf', ['phantomas','yslow','pagespeed']);
   grunt.registerTask('optim', ['imageoptim','uncss']);
   grunt.registerTask('build', ['jekyll']);  
   grunt.registerTask('default', ['shell', 'connect', 'browserSync','watch']);
