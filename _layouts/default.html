@@ -37,7 +37,7 @@
               {% for navigable in site.html_pages sort_by:title order:descending %}
                 {% if navigable.title %}
                 <li class="{% if page.url == navigable.url %}active{% endif %}">
-                  <a href="{{ site.url }}/{{ navigable.url }}">{{ navigable.title }}</a>
+                  <a href="{{ site.url }}{{ navigable.url }}">{{ navigable.title }}</a>
                 </li>
                 {% endif %}
               {% endfor %}

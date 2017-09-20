@@ -7,7 +7,7 @@ Certaines pages affichent des temps de chargement très important (/mej_quoi), i
 Nous allons appeler des images plus adaptées.
 
 
-###Statistiques moyennes###
+### Statistiques moyennes ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/bXRG89/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/Z1aZYVRJ)
@@ -32,7 +32,7 @@ Temps de chargement :
   * Backend   : 1.1s
   * Frontend  : 2.5s
 
-####Liste des pages présentant le plus grand temps de chargement####
+#### Liste des pages présentant le plus grand temps de chargement ####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
@@ -43,11 +43,11 @@ Temps de chargement :
 | association       | 16s           |
 | Congres2014       | 11s           |
 
-###Action###
+### Action ###
 
 * Optimisation des images d'illustration en page d'accueil et en colonne de gauche (/mej_quoi).
 
-###Résultat###
+### Résultat ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/GvVPd/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/Io9dV0uk)
@@ -72,7 +72,7 @@ Temps de chargement :
   * Backend   : 1.2s
   * Frontend  : 1.7s
 
-####Liste des pages présentant le plus grand temps de chargement####
+#### Liste des pages présentant le plus grand temps de chargement ####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
@@ -83,6 +83,6 @@ Temps de chargement :
 | association       | 1.7s          |
 | Congres2014       | 2.5s          |
 
-###Appréciation###
+### Appréciation ###
 
 Le gain de temps de chargement sur la page d'accueil est très important après avoir optimisé les 2 images (affiche et carte). Nous devrions avoir un gain important aussi sur les pages affichant des images en colonne de gauche (/mej_quoi).

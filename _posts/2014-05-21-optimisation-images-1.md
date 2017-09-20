@@ -6,7 +6,7 @@ layout: post
 Nous avons installé et compressé les images du répertoires d'images de Drupal. Nous allons voir ce que ça change pour la page d'accueil.
 
 
-###Statistiques moyennes###
+### Statistiques moyennes ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/bXRG89/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/Z1aZYVRJ)
@@ -22,11 +22,11 @@ Temps de chargement :
 - 4,30s (local) 
 
 
-###Action###
+### Action ###
 
 * Optimisation des images statiques
 
-###Résultat###
+### Résultat ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/cEO08X/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/88L2C13M)
@@ -41,6 +41,6 @@ Temps de chargement :
 - 4,59s (GT metric) 
 - 4,01s (local) 
 
-###Appréciation###
+### Appréciation ###
 
 Nous avons légèrement fait baissé le temps de chargement sur les mesures GTmetrix.

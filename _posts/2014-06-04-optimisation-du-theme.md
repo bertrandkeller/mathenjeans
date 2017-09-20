@@ -6,8 +6,7 @@ layout: post
 Certaines pages affichent des temps de chargement très important (/mej_quoi), il est possible que ce soit dû aux images de la colonne de gauche.
 Nous allons appeler des images plus adaptées.
 
-
-###Statistiques moyennes###
+### Statistiques moyennes ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/GvVPd/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/Io9dV0uk)
@@ -32,7 +31,7 @@ Temps de chargement :
   * Backend   : 1.2s
   * Frontend  : 1.7s
 
-####Liste des pages présentant le plus grand temps de chargement####
+#### Liste des pages présentant le plus grand temps de chargement ####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
@@ -43,11 +42,11 @@ Temps de chargement :
 | association       | 1.7s          |
 | Congres2014       | 2.5s          |
 
-###Action###
+### Action ###
 
 * Optimisation du thème du site et suppression des image d'illustration pour diminuer les requêtes.
 
-###Résultat###
+### Résultat ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/ck3HNl/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/96PE5pB2)
@@ -72,7 +71,7 @@ Temps de chargement :
   * Backend   : 1.1s
   * Frontend  : 1.1s
 
-####Liste des pages présentant le plus grand temps de chargement####
+#### Liste des pages présentant le plus grand temps de chargement ####
 
 {:.table .table-striped}
 | Pages             | Chargement    | 
@@ -83,7 +82,7 @@ Temps de chargement :
 | association       | 1.1s          |
 | Congres2014       | 1.2s          |
 
-###Appréciation###
+### Appréciation ###
 
 Après la mise en place des 4 actions d'optimisation des performances, on remarque que le chargement du frontend a nettement diminué. On arrive à des temps de chargement raisonnable (quand les pages sont en cache Drupal). Les tablettes et portables présentent des chargement moins ahurissant qu'auparavant.
 

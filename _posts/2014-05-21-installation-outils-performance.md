@@ -6,7 +6,7 @@ layout: post
 Nous avons installé quelques plugins dans l'admin Drupal et un tracker pingdom
 
 
-###Statistiques moyennes###
+### Statistiques moyennes ###
 
 Note : 
 - 91/100 (Pingdom) 
@@ -29,7 +29,7 @@ Temps de chargement :
   * Backend 	: 1.1s
   * Frontend 	: 2.5s
 
-####Liste des pages présentant le plus grand temps de chargement####
+#### Liste des pages présentant le plus grand temps de chargement ####
 
 {:.table .table-striped}
 | Pages	        	  | Chargement    | 
@@ -41,11 +41,11 @@ Temps de chargement :
 | Congres2014 		  | 11s     		  |
 | transports-lille 	| 6.4s     		  |
 
-###Action###
+### Action ###
 
 * Modification du .htacess
 
-###Résultat###
+### Résultat ###
 
 * [Pingdom](http://tools.pingdom.com/fpt/#!/bXRG89/http://www.mathenjeans.fr/)
 * [GTMetrix](http://gtmetrix.com/reports/www.mathenjeans.fr/Z1aZYVRJ)
@@ -72,7 +72,7 @@ Temps de chargement :
 | Congres2014       | 2.5s          |
 | transports-lille  | 6.4s          |
 
-###Appréciation###
+### Appréciation ###
 
 Nous avons largement fait baissé le temps de chargement de la page d'accueil. (Le score Pingdom est bizarrement plus bas. Les cirtères entre les 2 mesures ne semblent pas les mêmes, je ne sais pas expliquer cette différence.)
 
