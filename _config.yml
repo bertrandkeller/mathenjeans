@@ -4,6 +4,7 @@
 # For more details about configuring Jekyll.
 #
 title: "Math en jeans"
+url: "https://bertrandkeller.github.io/mathenjeans/"
 exclude:
   - README.md
 
